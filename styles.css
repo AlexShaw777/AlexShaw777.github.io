@@ -289,12 +289,6 @@ a:active
     opacity: 1;
 }
 
-/* #contact
-{
-    margin-top: 1%;
-    margin-bottom: 1%;
-} */
-
 .Container
 {
     width: 100%;
@@ -303,8 +297,8 @@ a:active
     grid-template-areas:
     "a1 a2" 
     "a3 a4"
-    "a5 a6";
-    /* place-items: center; */
+    "a5 a6"
+    "a7 a7";
 }
 
 .Area1
@@ -384,6 +378,20 @@ a:active
 {
     opacity: 1;
 }
+
+.Area7
+{
+    border: #83a2af inset 10px;
+    grid-area: a7;
+    opacity: 0.75;
+    text-align: center;
+}
+
+.Area7:hover
+{
+    opacity: 1;
+}
+
 
 
 
@@ -470,3 +478,4 @@ input[type=submit]
     color: black;
     font-size: larger;
 }
+

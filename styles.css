@@ -1,6 +1,7 @@
 body
 {
     background-color: #393f4d ; 
+    /* overflow: scroll; */
     /* background-image: url("background-img.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -47,10 +48,11 @@ body
 
 
     top: 7.5%;
-    height: 100%;
+    height: 93%;
     width: 100%;
     overflow-y: scroll;
     /* overflow-x: scroll; */
+    padding: 2%;
 
 }
 
@@ -107,6 +109,7 @@ a:active
 #Cat2p
 {
     text-align: center;
+    width: 100%;
 }
 
 #pfp
@@ -126,6 +129,11 @@ a:active
 {
     margin-left: 5%;
     font-size: x-large;
+    text-align: center;
+}
+#about_me_list
+{
+    list-style-type: none;
 }
 
 #Welcome_title
@@ -168,16 +176,15 @@ a:active
     left: 0;
 }
 
-#UR
+.Welcome_pics
 {
-    float: right;
-    margin: 10px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
-#ICPC
+.portfolio_pics
 {
-    float: left;
-    margin: 10px;
+    border-radius: 50%;
 }
 
 @media screen and (max-width: 768px){
@@ -233,6 +240,16 @@ a:active
 {
     font-size: xx-large;
     text-align: center;
+}
+
+#logos
+{
+    th,td 
+    {
+        padding: 20px;
+    }
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .realtime
@@ -298,14 +315,15 @@ a:active
     "a1 a2" 
     "a3 a4"
     "a5 a6"
-    "a7 a7";
+    "a7 a8"
+    "a9 a10";
 }
 
 .Area1
 {
     border: #83a2af inset 10px;
     grid-area: a1;
-    opacity: 0.75;
+    opacity: 0.25;
     text-align: center;
 }
 
@@ -318,7 +336,7 @@ a:active
 {
     border: #83a2af inset 10px;
     grid-area: a2;
-    opacity: 0.75;
+    opacity: 0.25;
     text-align: center;
 }
 
@@ -331,7 +349,7 @@ a:active
 {
     border: #83a2af inset 10px;
     grid-area: a3;
-    opacity: 0.75;
+    opacity: 0.25;
     text-align: center;
 }
 
@@ -344,7 +362,7 @@ a:active
 {
     border: #83a2af inset 10px;
     grid-area: a4;
-    opacity: 0.75;
+    opacity: 0.25;
     text-align: center;
 }
 
@@ -357,7 +375,7 @@ a:active
 {
     border: #83a2af inset 10px;
     grid-area: a5;
-    opacity: 0.75;
+    opacity: 0.25;
     text-align: center;
 }
 
@@ -370,7 +388,7 @@ a:active
 {
     border: #83a2af inset 10px;
     grid-area: a6;
-    opacity: 0.75;
+    opacity: 0.25;
     text-align: center;
 }
 
@@ -383,7 +401,7 @@ a:active
 {
     border: #83a2af inset 10px;
     grid-area: a7;
-    opacity: 0.75;
+    opacity: 0.25;
     text-align: center;
 }
 
@@ -392,7 +410,44 @@ a:active
     opacity: 1;
 }
 
+.Area8
+{
+    border: #83a2af inset 10px;
+    grid-area: a8;
+    opacity: 0.25;
+    text-align: center;
+}
 
+.Area8:hover
+{
+    opacity: 1;
+}
+
+.Area9
+{
+    border: #83a2af inset 10px;
+    grid-area: a9;
+    opacity: 0.25;
+    text-align: center;
+}
+
+.Area9:hover
+{
+    opacity: 1;
+}
+
+.Area10
+{
+    border: #83a2af inset 10px;
+    grid-area: a10;
+    opacity: 0.25;
+    text-align: center;
+}
+
+.Area10:hover
+{
+    opacity: 1;
+}
 
 
 

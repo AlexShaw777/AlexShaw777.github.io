@@ -1,116 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <title>My Projects</title>
-    </head>
-    <body>
-        <nav class ="navbar navbar-expand-md navbar-dark fixed-top">
-            <div class = "container-fluid">
-                <a class="navbar-brand" href="#">
-                    <!-- Logo img here, make something cool happen when clicks name -->
-                    <img src = "" class="d-inline-block align-text-top">Alex Shaw</a>
-                    
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-              <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ms-auto mb-10 mb-md-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">Welcome</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="myprojects.html">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="resume.html">Resume</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-        </nav>
-        <!-- <div class="Cat1">
-            <img id ="pfp" src="pfp.jpg" height="30%" width="60%">
-            <h2 id="alex">Alex Shaw</h2>
-            <div class = "Cat1li">
-                <li id = "menu"><a href ="index.html">Welcome</a></li>
-                <hr>
-                <li id = "menu"><a href ="myprojects.html">My Projects</a></li>
-                <hr>
-                <li id = "menu"><a href ="contactme.html">Contact Me</a></li>
-                <hr>
-                <li id = "menu"><a href ="resume.html">My Resume</a></li>
-            </div>
-            <div id = "social">
-                <h2>Check out my Linkedin</h2>
-                <a href="linkedin.com/in/alex-shaw-579b391ba" target="_blank" class="fa fa-linkedin"></a>
-            </div>
-        </div> -->
-        <div class = "Cat2">
-            <h1 id ="contact">My Projects</h1><br>
-            <div class ="Container">
-                <div class = "Area1" onclick="location.href='240p.html';">
-                    <h2>Car Traffic Simulator using C++</h2>
-                    <img src ="240.png" class = "portfolio_pics" width="200px" height="200px">
-                    <h3>Simulates the complexities of traffic and when to turn</h3>
-                    <!-- <p>One of my first big projects our group was tasked with was the adaption of a car traffic simulator. We were given a basic 
-                        layout of the traffic intersection and had to make sure there were no crashes in the intersection just like in real life. 
-                        This project took a lot of hard work and dedication that showed when we did finally execute and run our final result. 
-                        A snapshot of the result is above. 
-                    </p> -->
-                </div>
-                <div class = "Area2" onclick="location.href='301p.html';">
-                    <h2>Central Processing Unit using Logism</h2>
-                    <img src ="301.PNG" class = "portfolio_pics" width="200px" height="200px">
-                    <h3>The intricacies of logic gates and procedures to get results</h3>
-                    <!-- <p>In another class, our group was tasked with was the creation of a Central Processing Unit using logic gates. 
-                        The complexity of our project is extreme but I am very proud of the particularness of our project. 
-                    </p> -->
-                </div>
-                <div class = "Area3" onclick="location.href='IPODp.html';">
-                    <h2>IPOD Player HTML</h2>
-                    <img src ="IPOD.PNG" class = "portfolio_pics" width="200px" height="200px">
-                    <h3>The recreation of an Ipod player using HTML and CSS.</h3>
-                </div>
-                <div class = "Area4" onclick="location.href='ML.html';">
-                    <h2>Machine Learning and Video Game Trends</h2>
-                    <img src ="ML.jpg" class = "portfolio_pics" width="200px" height="200px">
-                    <h3>Using machine learning techniques, my group uncovered hidden trends in video game sales</h3>
-                </div>
-                <div class = "Area5" onclick="location.href='Spydur.html';">
-                    <h2>Summer research at the University of Richmond a.k.a. Spydur Research</h2>
-                    <img src ="Spydur.PNG" class = "portfolio_pics" width="200px" height="200px">
-                    <h3>Making summer researcch more accessible and user-friendly</h3>
-                </div>
-                <div class = "Area6" onclick="location.href='STF.html';">
-                    <h2>Mini-game Shoot the Fruit</h2>
-                    <img src ="STF.PNG" class = "portfolio_pics" width="200px" height="200px">
-                    <h3>Simple game to train with positive reinforcement</h3>
-                </div>
-                <div class = "Area7" onclick="location.href = 'GTL.html';">
-                    <h2>Guess the Link</h2>
-                    <img src ="GTL.PNG" class = "portfolio_pics" width="200px" height="200px">
-                    <h3>Complex sports game where the user must link two players with past teammates</h3>
-                </div>
-                <div class = "Area8" onclick="location.href = 'f1.html';">
-                    <h2>F1 Predictor</h2>
-                    <img src ="f1.png" class = "portfolio_pics" width="200px" height="200px">
-                    <h3>Using Machine Learning algorithms to predict the top 10 in a F1 race.</h3>
-                </div>
-                <div class = "Area9" onclick="location.href = 'SportsBet.html';">
-                    <h2>Sports Betting Algorithm</h2>
-                    <img src ="sportsbet.jpg" class = "portfolio_pics" width="200px" height="200px">
-                    <h3>Using Machine Learning and Kaggle to bet sport game total over/unders</h3>
-                </div>
-                <div class = "Area10" onclick="location.href = 'ITNSROC.html';">
-                    <h2>IT Dashboard for NSROC</h2>
-                    <img src ="NSROC.png" class = "portfolio_pics" width="200px" height="200px">
-                    <h3>IT Dashboard used for the NSROC Contract</h3>
-                </div>
-            </div>
-        </div>
-    </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Alex Shaw</title>
+  <meta name="description" content="Selected projects by Alex Shaw — software, machine learning, and aerospace operations work." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav class="site-nav">
+    <a class="brand" href="index.html">
+      <img class="brand-mark" src="pfp2.PNG" alt="Alex Shaw" />
+      <span class="brand-text"><strong>ALEX SHAW</strong> &nbsp;//&nbsp; AEROSPACE · SOFTWARE</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="myprojects.html" class="active">Portfolio</a></li>
+      <li><a href="resume.html">Resume</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section class="hero">
+      <span class="hero-tag">// PROJECT LOG</span>
+      <h1>Portfolio</h1>
+      <p class="hero-sub">
+        A selection of coursework, research, and personal projects spanning systems programming,
+        machine learning, web development, and aerospace operations tooling.
+      </p>
+    </section>
+
+    <section>
+      <div class="section-label">// SELECTED WORK</div>
+      <h2 class="section-title">Projects</h2>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-thumb"><img src="NSROC.png" alt="NSROC IT Dashboard" /></div>
+          <div class="project-body">
+            <div class="project-tag">Aerospace · Operations</div>
+            <h3 class="project-title">IT Dashboard for NSROC</h3>
+            <p class="project-desc">An operations dashboard developed in support of NASA's Sounding Rocket Operations Contract — surfacing system health and mission-critical metrics for the IT team.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb"><img src="f1.png" alt="F1 Predictor" /></div>
+          <div class="project-body">
+            <div class="project-tag">Machine Learning</div>
+            <h3 class="project-title">F1 Race Predictor</h3>
+            <p class="project-desc">Machine learning model that predicts the top-10 finishers of a Formula 1 race using historical race, driver, and constructor data.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb"><img src="sportsbet.jpg" alt="Sports Betting Algorithm" /></div>
+          <div class="project-body">
+            <div class="project-tag">Machine Learning · Data</div>
+            <h3 class="project-title">Sports Betting Algorithm</h3>
+            <p class="project-desc">Kaggle-driven model targeting over/under totals on sports games — feature engineering, model selection, and back-testing on historical lines.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb"><img src="ML.jpg" alt="Video game ML analysis" /></div>
+          <div class="project-body">
+            <div class="project-tag">Machine Learning · Research</div>
+            <h3 class="project-title">Video Game Sales Trend Analysis</h3>
+            <p class="project-desc">Group research project applying ML techniques to surface non-obvious trends in global video game sales data.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb"><img src="Spydur.PNG" alt="Spydur Research" /></div>
+          <div class="project-body">
+            <div class="project-tag">HPC · Research Tools</div>
+            <h3 class="project-title">Spydur Research Platform</h3>
+            <p class="project-desc">Summer research at the University of Richmond making the Spydur high-performance computing cluster more accessible and user-friendly for student researchers.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb"><img src="240.png" alt="Traffic Simulator" /></div>
+          <div class="project-body">
+            <div class="project-tag">Systems · C++</div>
+            <h3 class="project-title">Car Traffic Simulator</h3>
+            <p class="project-desc">A C++ simulator that models the complexities of urban traffic and turn-decision logic at intersections.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb"><img src="301.PNG" alt="CPU in Logism" /></div>
+          <div class="project-body">
+            <div class="project-tag">Computer Architecture</div>
+            <h3 class="project-title">CPU Design in Logism</h3>
+            <p class="project-desc">A working central processing unit designed in Logism — exploring logic gates, control flow, and the procedures behind instruction execution.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb"><img src="IPOD.PNG" alt="iPod player" /></div>
+          <div class="project-body">
+            <div class="project-tag">Web · UI</div>
+            <h3 class="project-title">iPod Player (HTML &amp; CSS)</h3>
+            <p class="project-desc">A faithful recreation of the classic iPod interface built with HTML and CSS — pixel-level attention to the original click-wheel UX.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb"><img src="STF.PNG" alt="Shoot the Fruit" /></div>
+          <div class="project-body">
+            <div class="project-tag">Game · Reinforcement</div>
+            <h3 class="project-title">Shoot the Fruit</h3>
+            <p class="project-desc">A small game designed around positive-reinforcement training mechanics — built as a teaching exercise in feedback loops.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb"><img src="GTL.PNG" alt="Guess the Link" /></div>
+          <div class="project-body">
+            <div class="project-tag">Game · Sports</div>
+            <h3 class="project-title">Guess the Link</h3>
+            <p class="project-desc">A sports trivia game where players must link two athletes through their shared past teammates — graph-traversal at heart, sports knowledge in practice.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Alex Shaw · Richmond, Virginia · <a href="mailto:alexshaw461@gmail.com">alexshaw461@gmail.com</a></p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
 </html>

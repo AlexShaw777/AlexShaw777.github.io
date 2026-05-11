@@ -1,74 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <title>My Personal Portfolio</title>
-    </head>
-    <body>
-        <nav class ="navbar navbar-expand-md navbar-dark fixed-top">
-            <div class = "container-fluid">
-                <a class="navbar-brand" href="#">
-                    <!-- Logo img here, make something cool happen when clicks name -->
-                    <img src = "pfp2.PNG" height ="47.5%" width="47.5%" class = "d-inline-block align-text-top"></a>
-                    
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id= "navbarCollapse">
-                    <ul class="navbar-nav ms-auto mb-10 mb-md-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Welcome</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="myprojects.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="resume.html">Resume</a>
-                    </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Shaw — Aerospace Software Engineer</title>
+  <meta name="description" content="Alex Shaw — Computer Science graduate from the University of Richmond, contributing to NASA Sounding Rocket Operations through Peraton. Software, data, and aerospace." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
 
-        <div class = "Cat2">
-            <h1 id = "Welcome_title"><span>Welcome to My Portfolio!</span></h1>
-            <div id = "Cat2p">
-                <!-- <img id ="code" src ="compscihero-1024x545.jpg" height="50%" width="50%"> -->
-                <div class = "about_me">
-                    <p>Hello, and welcome! I'm Alex Shaw, a recent graduate of the University of Richmond, Roll Spiders! 
-                        I am passionate about delivering innovative solutions to various companies. With a background in Computer Science and 
-                        Business Adminsitration , I bring strategic thinking, problem solving, collaboration and high-level communication to 
-                        every project. On this site, you'll find an overview of my work, insights into my professional journey, and ways to 
-                        connect. I believe in the power of technology and innovation to further a businesses mission and am excited to collaborate with 
-                        like-minded professionals. Let's create something impactful together!</p>
-                    <p> A little bit more about me, I am a Graduate from the <a id ="URlink" href = "https://www.richmond.edu/">University of Richmond</a> 
-                        and I studied the complex field of <b>Computer Science</b> with a concentration in <b>Data Statistics and Analytics</b> 
-                        while minoring in <b>Business Administration.</b> I am based in Richmond, Virginia and am willing to relocate across the nation. 
-                        My main passion when considering work is how can I help people using my skillset.</li>
-                        Now that I have coding and critical decsion making in my toolbox, I can solve tough problems to help better a company or a task at hand.
-                        Coding has been such a technologcial revolution that has and will continue to launch our society to new accomplishments.
-                        I would love to be part of a company that seeks this and more.
-                    </p>
-                </div>
-            </div>
-            <div>
-                <p id ="logosp">I have contributed my talents with these places so far. <br> Could yours be next?</p>
-                <table id ="logos">
-                    <tr>
-                        <th><a href ="https://sites.wff.nasa.gov/code810/nsroc.html" target="_blank"><img class ="Welcome_pics" src="NASA.png" width="200px" height="200px"></a></th>
-                        <th><a href ="https://www.youtube.com/watch?v=PA0YoCfLhbg" target="_blank"><img class ="Welcome_pics" src="uofr.jpg" width="200px" height="200px"></a></th>
-                        <th><a href ="https://www.peraton.com/news/peraton-awarded-330-3m-contract-iv-to-support-nasa-sounding-rocket-operations/" target="_blank"><img class ="Welcome_pics" src="Peraton.jpg"  width="200px" height="200px"></a></th>
-                    </tr>
-                    <tr>
-                        <th><a href ="https://icpc.global/" target="_blank"><img class ="Welcome_pics" src="ICPC.png" width="200px" height="200px"></a></th>
-                        <th ><a href ="https://www.richmond.edu/" target="_blank"><img class ="Welcome_pics" src="spiderventures.jpg" width="200px" height="200px"></a></th>
-                        <th><a href ="https://apps.apple.com/us/app/realtime-live/id1536186030" target="_blank"><img class ="Welcome_pics" src="realtime.jpg"  width="200px" height="200px"></a></th>
-                    </tr>
-                    
-                </table>
-            </div>
-    </body>    
+  <nav class="site-nav">
+    <a class="brand" href="index.html">
+      <img class="brand-mark" src="pfp2.PNG" alt="Alex Shaw" />
+      <span class="brand-text"><strong>ALEX SHAW</strong> &nbsp;//&nbsp; AEROSPACE · SOFTWARE</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="myprojects.html">Portfolio</a></li>
+      <li><a href="resume.html">Resume</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero">
+      <span class="hero-tag">// MISSION READY</span>
+      <h1>Engineering software<br/>for the next launch.</h1>
+      <p class="hero-sub">
+        Computer Science graduate building reliable systems at the intersection of
+        data, analytics, and aerospace — currently supporting NASA's Sounding Rocket Operations Contract.
+      </p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="myprojects.html">View Portfolio</a>
+        <a class="btn btn-ghost" href="resume.html">Read Resume</a>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section id="about">
+      <div class="section-label">// 01 — About</div>
+      <h2 class="section-title">Background</h2>
+      <div class="about">
+        <p>
+          I'm <strong>Alex Shaw</strong>, a Computer Science graduate of the
+          <a href="https://www.richmond.edu/" target="_blank" rel="noopener">University of Richmond</a>
+          with a concentration in <strong>Data Statistics &amp; Analytics</strong>
+          and a minor in <strong>Business Administration</strong>.
+          My work focuses on building dependable, mission-critical software —
+          most recently supporting NASA's Sounding Rocket Operations Contract through Peraton.
+        </p>
+        <p>
+          I gravitate toward problems where engineering rigor and real-world impact meet:
+          telemetry pipelines, operations dashboards, and the kind of systems that
+          have to work the first time. I bring strategic thinking, clear technical communication,
+          and a bias toward shipping clean, well-tested code.
+        </p>
+        <p>
+          Based in Richmond, Virginia. Open to relocation across the United States.
+          If you're building something ambitious in aerospace, defense, or applied data —
+          I'd like to hear about it.
+        </p>
+      </div>
+    </section>
+
+    <!-- ========== EXPERIENCE ========== -->
+    <section id="experience">
+      <div class="section-label">// 02 — Experience</div>
+      <h2 class="section-title">Where I've Contributed</h2>
+      <div class="exp-grid">
+
+        <a class="exp-card" href="https://sites.wff.nasa.gov/code810/nsroc.html" target="_blank" rel="noopener">
+          <div class="exp-logo-wrap"><img src="NASA.png" alt="NASA" /></div>
+          <div>
+            <div class="exp-name">NASA Wallops Flight Facility</div>
+            <div class="exp-role">SOUNDING ROCKETS · CODE 810</div>
+          </div>
+          <p class="exp-desc">Contributing to operations supporting NASA's Sounding Rocket program — research-grade launch vehicles for atmospheric and space science.</p>
+        </a>
+
+        <a class="exp-card" href="https://www.peraton.com/news/peraton-awarded-330-3m-contract-iv-to-support-nasa-sounding-rocket-operations/" target="_blank" rel="noopener">
+          <div class="exp-logo-wrap"><img src="Peraton.jpg" alt="Peraton" /></div>
+          <div>
+            <div class="exp-name">Peraton</div>
+            <div class="exp-role">NSROC IV · IT &amp; OPERATIONS</div>
+          </div>
+          <p class="exp-desc">Software and IT work on the $330M NSROC IV contract supporting NASA Sounding Rocket Operations — dashboards, telemetry tooling, and mission infrastructure.</p>
+        </a>
+
+        <a class="exp-card" href="https://www.youtube.com/watch?v=PA0YoCfLhbg" target="_blank" rel="noopener">
+          <div class="exp-logo-wrap"><img src="uofr.jpg" alt="University of Richmond" /></div>
+          <div>
+            <div class="exp-name">University of Richmond</div>
+            <div class="exp-role">B.S. CS · DATA &amp; ANALYTICS</div>
+          </div>
+          <p class="exp-desc">Summer research on Spydur, the university's HPC platform — focused on making compute resources more accessible to student researchers.</p>
+        </a>
+
+        <a class="exp-card" href="https://icpc.global/" target="_blank" rel="noopener">
+          <div class="exp-logo-wrap"><img src="ICPC.png" alt="ICPC" /></div>
+          <div>
+            <div class="exp-name">ICPC</div>
+            <div class="exp-role">COMPETITIVE PROGRAMMING</div>
+          </div>
+          <p class="exp-desc">Competed in the International Collegiate Programming Contest — algorithmic problem-solving against the clock with a four-person team.</p>
+        </a>
+
+        <a class="exp-card" href="https://www.richmond.edu/" target="_blank" rel="noopener">
+          <div class="exp-logo-wrap"><img src="spiderventures.jpg" alt="Spider Ventures" /></div>
+          <div>
+            <div class="exp-name">Spider Ventures</div>
+            <div class="exp-role">STUDENT VENTURES</div>
+          </div>
+          <p class="exp-desc">Worked alongside University of Richmond's student-led venture program — bridging product, engineering, and business strategy.</p>
+        </a>
+
+        <a class="exp-card" href="https://apps.apple.com/us/app/realtime-live/id1536186030" target="_blank" rel="noopener">
+          <div class="exp-logo-wrap"><img src="realtime.jpg" alt="Realtime Live" /></div>
+          <div>
+            <div class="exp-name">Realtime Live</div>
+            <div class="exp-role">iOS · LIVE EVENTS</div>
+          </div>
+          <p class="exp-desc">Contributed to Realtime Live, an iOS app for live-event audience interaction available on the App Store.</p>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section id="skills">
+      <div class="section-label">// 03 — Capabilities</div>
+      <h2 class="section-title">Technical Stack</h2>
+      <div class="skills-grid">
+
+        <div class="skills-card">
+          <h3>Languages</h3>
+          <div class="skills-list">
+            <span class="skill-chip">Python</span>
+            <span class="skill-chip">C++</span>
+            <span class="skill-chip">Java</span>
+            <span class="skill-chip">JavaScript</span>
+            <span class="skill-chip">SQL</span>
+            <span class="skill-chip">HTML / CSS</span>
+            <span class="skill-chip">R</span>
+          </div>
+        </div>
+
+        <div class="skills-card">
+          <h3>Data &amp; ML</h3>
+          <div class="skills-list">
+            <span class="skill-chip">pandas</span>
+            <span class="skill-chip">NumPy</span>
+            <span class="skill-chip">scikit-learn</span>
+            <span class="skill-chip">Kaggle</span>
+            <span class="skill-chip">Statistical Modeling</span>
+            <span class="skill-chip">Data Viz</span>
+          </div>
+        </div>
+
+        <div class="skills-card">
+          <h3>Systems &amp; Tools</h3>
+          <div class="skills-list">
+            <span class="skill-chip">Linux</span>
+            <span class="skill-chip">HPC (Spydur)</span>
+            <span class="skill-chip">Git</span>
+            <span class="skill-chip">Logism</span>
+            <span class="skill-chip">IT Dashboards</span>
+          </div>
+        </div>
+
+        <div class="skills-card">
+          <h3>Soft Skills</h3>
+          <div class="skills-list">
+            <span class="skill-chip">Strategic Thinking</span>
+            <span class="skill-chip">Cross-team Communication</span>
+            <span class="skill-chip">Problem Solving</span>
+            <span class="skill-chip">Mission Mindset</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Alex Shaw · Richmond, Virginia · <a href="mailto:alexshaw461@gmail.com">alexshaw461@gmail.com</a></p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
 </html>
